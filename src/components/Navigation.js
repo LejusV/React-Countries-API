@@ -7,6 +7,9 @@ const Navigation = () => {
             <NavLink to="/" >
                 Accueil
             </NavLink>
+            <NavLink to="/news" >
+                News
+            </NavLink>
             <NavLink to="/about" >
                 À Propos
             </NavLink>

@@ -57,7 +57,7 @@ const News = () => {
                     placeholder="Message"
                     value={content}
                 ></textarea>
-                {error && <p>Veuillez écrire un minimum de 140 caractères</p>}
+                {error && <p id="lenError">Veuillez écrire un minimum de 140 caractères</p>}
                 <input type="submit" value="Envoyer" />
                 <ul>
                     {newsData

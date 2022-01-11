@@ -1,11 +1,12 @@
 .card {
-    height: 100px;
-    position: relative;
-    margin: 1px;
-    box-shadow: 0 0 2px rgba(51, 51, 51, 0.25);
-    transition: 0.3s;
-    overflow: hidden;
-    border-radius: 4px;
+  padding: 0px;
+  height: 100px;
+  position: relative;
+  margin: 1px;
+  box-shadow: 0 0 2px rgba(51, 51, 51, 0.25);
+  transition: 0.3s;
+  overflow: hidden;
+  border-radius: 4px;
   
     &:hover {
       transform: scale(1.25);
